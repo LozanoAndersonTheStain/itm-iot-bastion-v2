@@ -1,0 +1,80 @@
+# ==========================================
+#  SECRETOS Y VARIABLES DE ENTORNO
+# ==========================================
+
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+*.p12
+
+# ==========================================
+#  DATOS GENERADOS POR DOCKER (LOCAL)
+# ==========================================
+
+data/
+influxdb/
+grafana/data/
+grafana/plugins/
+mosquitto/data/
+mosquitto/log/
+prometheus/
+
+# ==========================================
+#  REGISTROS (LOGS) Y TEMPORALES
+# ==========================================
+
+*.log
+logs/
+*.tmp
+*.swp
+*.swo
+*~
+.directory
+.DS_Store
+Thumbs.db
+
+# ==========================================
+#  EDITORES Y ENTORNOS DE DESARROLLO
+# ==========================================
+
+.vscode/
+.idea/
+*.code-workspace
+.vs/
+*.iml
+
+# ==========================================
+#  PYTHON (para scripts del simulador)
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.coverage
+venv/
+env/
+.venv
+
+# ==========================================
+#  ARCHIVOS COMPRIMIDOS (respaldos locales)
+# ==========================================
+
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ==========================================
+#  ARCHIVOS DE SISTEMA LINUX/WSL
+# ==========================================
+
+.bash_history
+.wget-hsts
+.nano_history
+.lesshst
