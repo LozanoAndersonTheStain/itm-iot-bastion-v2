@@ -20,6 +20,7 @@ grafana/data/
 grafana/plugins/
 mosquitto/data/
 mosquitto/log/
+mosquitto/config/passwords
 prometheus/
 
 # ==========================================
